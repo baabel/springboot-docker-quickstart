@@ -1,4 +1,4 @@
-package com.equifax.sidfrontend;
+package com.equifax.syntheticid;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,15 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SidFrontEndApplication {
+public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello Docker World Version 2";
+        return "Hello Docker World Version";
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(SidFrontEndApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }

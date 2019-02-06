@@ -1,4 +1,4 @@
-package com.equifax.sidfrontend;
+package com.equifax.syntheticid;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SidFrontEndApplicationTests {
+public class ApplicationTests {
 
 	@Test
 	public void contextLoads() {
