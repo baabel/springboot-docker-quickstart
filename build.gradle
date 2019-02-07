@@ -47,8 +47,6 @@ ext {
 def swaggerVersion = "2.7.0"
 
 dependencies {
-	implementation 'org.springframework.cloud:spring-cloud-gcp-starter'
-	implementation 'org.springframework.cloud:spring-cloud-gcp-starter-storage'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile("org.springframework.boot:spring-boot-starter-web")
     testCompile("org.springframework.boot:spring-boot-starter-test")
