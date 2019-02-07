@@ -13,7 +13,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello Docker World Version";
+        return "Hello Synthetic ID World Version 1";
     }
 
     public static void main(String[] args) {
